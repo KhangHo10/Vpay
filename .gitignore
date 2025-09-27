@@ -3,7 +3,6 @@
 *.log
 *.tmp
 
-
 ##
 ## BACKEND
 ##
@@ -16,11 +15,21 @@ backend/.env
 
 # Python cache files
 backend/__pycache__/
+backend/utils/__pycache__/
+backend/agents/__pycache__/   # added for agents cache
 backend/*.pyc
 backend/*.pyo
+backend/*.pyd
+backend/*.py[cod]
+backend/dist/
+backend/build/
+backend/*.egg
+backend/*.egg-info/
 
+# VS Code
+.vscode/
 
-##BACKEND
+## FRONTEND
 frontend/node_modules/
 frontend/dist/
 frontend/.env
@@ -28,4 +37,3 @@ frontend/.env
 # OS / editor files
 .DS_Store
 Thumbs.db
-.vscode/
