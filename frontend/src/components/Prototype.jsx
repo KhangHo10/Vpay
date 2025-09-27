@@ -1,4 +1,5 @@
 import React from 'react'
+import MicRecorder from './MicRecorder'
 
 export default function Prototype() {
   return (
@@ -11,14 +12,7 @@ export default function Prototype() {
 
       <div className="max-w-md mx-auto bg-purple-900/50 p-6 rounded-lg shadow">
         <h4 className="text-xl font-semibold mb-4">Try a Demo Payment</h4>
-        <input
-          type="text"
-          placeholder="Say or type amount (e.g. $25)"
-          className="w-full p-3 mb-4 rounded bg-purple-800 text-white focus:outline-none"
-        />
-        <button className="w-full p-3 bg-purple-600 rounded-lg shadow hover:bg-purple-500 transition">
-          Simulate Payment
-        </button>
+        <MicRecorder/>
       </div>
     </section>
   )
