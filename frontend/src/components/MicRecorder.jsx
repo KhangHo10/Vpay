@@ -6,7 +6,7 @@ export default function MicRecorder() {
 
     const commands = [
         {
-        command: 'reset',
+        command: 'pay',
         callback: () => setMessage('Hi there!')
         }
     ]
@@ -26,15 +26,17 @@ export default function MicRecorder() {
         }
     }, [interimTranscript, finalTranscript]);
 
-    if (!browserSupportsSpeechRecognition) {
-        return <span>Browser does not support speech recognition. Try using Chrome</span>;
-    }   
+    useEffect(() => {
+        if (browserSupportsSpeechRecognition && !listening) {
+            SpeechRecognition.startListening({ continuous: true });
+        }
+    }, [browserSupportsSpeechRecognition, listening]);
 
     return (
         <div>
             <p>Microphone: {listening ? 'on' : 'off'}</p>
                 <div className="flex gap-x-2 p-2 rounded">
-                    <button onClick={SpeechRecognition.startListening} className="w-48 p-3 bg-purple-600 rounded-lg shadow hover:bg-purple-500 transition">
+                    <button onClick={() => SpeechRecognition.startListening({ continuous:true})} className="w-48 p-3 bg-purple-600 rounded-lg shadow hover:bg-purple-500 transition">
                         Start
                     </button>
                     <button onClick={SpeechRecognition.stopListening} className="w-48 p-3 bg-purple-600 rounded-lg shadow hover:bg-purple-500 transition">
@@ -44,7 +46,7 @@ export default function MicRecorder() {
                         Reset
                     </button>
                 </div>
-            <p>{transcript || interimTranscript}</p>
+            <p>{"Waiting for Pay Command"}</p>
         </div>
     )
 }
