@@ -245,9 +245,9 @@ def main():
     print(f"Three runs identical: {consistent}")
     
     if consistent:
-        print("✅ Embeddings are perfectly consistent!")
+        print("Embeddings are perfectly consistent!")
     else:
-        print("❌ Embeddings differ between runs")
+        print("Embeddings differ between runs")
         
         # Show differences for debugging
         diff_12 = sum(1 for a, b in zip(result['voice_embedding'], result2['voice_embedding']) if a != b)
