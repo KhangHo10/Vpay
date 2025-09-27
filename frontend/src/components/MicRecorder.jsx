@@ -46,7 +46,7 @@ export default function MicRecorder() {
                         Reset
                     </button>
                 </div>
-            <p>{"Waiting for Pay Command"}</p>
+            <p>{transcript}</p>
         </div>
     )
 }
