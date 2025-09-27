@@ -1,0 +1,31 @@
+.history
+
+*.log
+*.tmp
+
+
+##
+## BACKEND
+##
+
+# Python virtual environment
+backend/.venv/
+
+# Environment variables
+backend/.env
+
+# Python cache files
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+
+
+##BACKEND
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
