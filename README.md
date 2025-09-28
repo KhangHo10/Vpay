@@ -18,8 +18,14 @@ python -m venv .venv
 # Install dependencies
 pip install -r requirements.txt
 
-# Start the server (dev)
-uvicorn main:app --reload --port 8000
+# To start the connection between the frontend and the Backend via FastAPI
+uvicorn main:app --reload
+```
+
+```frontend
+cd frontend
+npm install
+npm run dev
 ```
 
 Open http://127.0.0.1:8000/ in a modern browser (Chrome or Edge recommended) and click the microphone button.
