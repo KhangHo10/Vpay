@@ -101,7 +101,7 @@ export default function MicRecorder() {
             const base64Audio = btoa(String.fromCharCode(...new Uint8Array(arrayBuffer))); // Convert binary to base64 text
             
             // Send to your FastAPI backend
-            const response = await fetch('/api/voice-payment', {
+            const response = await fetch('http://localhost:8000/obtain_audio', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
