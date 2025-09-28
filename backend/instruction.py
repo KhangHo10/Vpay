@@ -1,4 +1,0 @@
-VOICE_SEPARATOR_PROMPT = """
-
-
-"""

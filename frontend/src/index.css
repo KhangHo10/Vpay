@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Basic index.css for React app */
+@layer base {
+	body {
+		@apply bg-black text-white relative font-sans h-screen overflow-x-hidden
+	}
+}

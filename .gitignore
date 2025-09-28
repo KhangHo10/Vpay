@@ -1,12 +1,19 @@
+# History / logs / temp
 .history
-
 *.log
 *.tmp
-
+.env
 
 ##
 ## BACKEND
 ##
+
+# Ignore all __pycache__ folders everywhere
+**/__pycache__/
+
+# Ignore all .pyc/.pyo/.pyd files everywhere
+**/*.py[cod]
+
 
 # Python virtual environment
 backend/.venv/
@@ -16,16 +23,31 @@ backend/.env
 
 # Python cache files
 backend/__pycache__/
+backend/utils/__pycache__/
+backend/agents/__pycache__/
 backend/*.pyc
 backend/*.pyo
+backend/*.pyd
+backend/*.py[cod]
+backend/dist/
+backend/build/
+backend/*.egg
+backend/*.egg-info/
 
+# VS Code settings
+.vscode/
 
-##BACKEND
+##
+## FRONTEND
+##
+
+# Node modules & build output
 frontend/node_modules/
 frontend/dist/
+
+# Environment variables
 frontend/.env
 
 # OS / editor files
 .DS_Store
 Thumbs.db
-.vscode/
