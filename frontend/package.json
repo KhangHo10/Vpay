@@ -8,8 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.1.0",
     "@stripe/react-stripe-js": "^4.0.2",
     "@stripe/stripe-js": "^7.9.0",
+    "boxicons": "^2.1.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.3",
