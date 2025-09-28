@@ -8,6 +8,13 @@
 ## BACKEND
 ##
 
+# Ignore all __pycache__ folders everywhere
+**/__pycache__/
+
+# Ignore all .pyc/.pyo/.pyd files everywhere
+**/*.py[cod]
+
+
 # Python virtual environment
 backend/.venv/
 
