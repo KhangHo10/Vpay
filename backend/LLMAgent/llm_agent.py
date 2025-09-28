@@ -2,9 +2,8 @@ from google.adk.agents import Agent
 import sys
 from pathlib import Path
 import json
-from typing import Optional
 
-# Add backend directory to Python path (same pattern as your other agents)
+# Add backend directory to Python path
 backend_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(backend_dir))
 
