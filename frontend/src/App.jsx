@@ -1,6 +1,9 @@
 import Home from "./components_new/Home/Home";
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
 import Prototype from "./components_new/Home/Prototype";
+import About from "./components_new/Home/About";
+import Profile from "./components_new/Home/Profile";
+import Payment from "./components_new/Home/Payment";
 
 export default function App() {
   return (
@@ -15,8 +18,9 @@ export default function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/prototype" element={<Prototype />} />
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/featuresSection" element={<FeaturesSection />} /> */}
+          <Route path="/about" element={<About />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/payment" element={<Payment />} />
       </Routes>
 
     </Router>

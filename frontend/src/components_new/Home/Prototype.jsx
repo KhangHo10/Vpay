@@ -1,9 +1,13 @@
 import React from 'react'
+import 'boxicons/css/boxicons.min.css'
+import Header2 from './Header2'
 import MicRecorder from "../MicRecorder"
 
 export default function Prototype() {
   return (
-    <section className="px-6 py-20 text-center">
+    <>
+      <Header2 />
+      <section className="px-6 py-20 text-center">
       <h3 className="text-3xl font-bold mb-6">Prototype Demo</h3>
       <p className="text-lg text-gray-300 mb-8">
         This is a placeholder for the backend integration.  
@@ -15,5 +19,6 @@ export default function Prototype() {
             <MicRecorder/>
       </div>
     </section>
+    </>
   )
 }
