@@ -34,9 +34,7 @@ function About() {
         
         {/* Description */}
         <p className='text-lg md:text-xl tracking-wider text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed'>
-          VPay is like Google Pay or Apple Pay — but smarter. Instead of tapping
-          or swiping, you just use your voice. We're building the future of payments
-          where technology understands you, not the other way around.
+          placeholder dot jpg
         </p>
 
         {/* Feature Cards */}
