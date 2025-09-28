@@ -15,6 +15,9 @@ from tools.voice_to_embedded import get_audio_hash, generate_100d_voice_embeddin
 from tools.voice_to_number import AudioProcessor
 
 # Embedded database class
+
+# This is the voice authentication agent that authenticates the user voices according 
+# to different pitch, extenuation, and more
 class VoiceAuthDatabase:
     def __init__(self, db_path: str = "voice_auth.db"):
         self.db_path = db_path

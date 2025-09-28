@@ -11,6 +11,7 @@ sys.path.insert(0, str(backend_dir))
 from tools.voice_transcribe import transcribe_file
 from tools.text_to_file import save_text_to_file
 
+# THis is the voice agent that transcripts the information that is given to it
 def transcribe_and_return(file_path: str) -> dict:
     """Modified transcription function that returns structured data."""
     try:
