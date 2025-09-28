@@ -1,9 +1,10 @@
-import Header2 from "./components_new/Header2";
-import Hero from "./components_new/Hero";
+import Home from "./components_new/Home/Home";
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
+import Prototype from "./components_new/Home/Prototype";
 
 export default function App() {
   return (
-    <main>
+    <Router>
       {/*Gradient img*/}
       <img className="absolute top-0 right-0 opacity-60 -z-1" src="/gradient.png" alt="gradient-img"/>
 
@@ -11,9 +12,13 @@ export default function App() {
       <div className="h-0 w-[40rem] absolute top-[20%] 
       right-[-5%] shadow-[0_0_900px_20px_#ac7de3] -rotate-[30deg] -z-10"></div>
 
-      <Header2/>
-      <Hero />
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/prototype" element={<Prototype />} />
+          {/* <Route path="/about" element={<About />} />
+          <Route path="/featuresSection" element={<FeaturesSection />} /> */}
+      </Routes>
 
-    </main>
+    </Router>
   )
 }
