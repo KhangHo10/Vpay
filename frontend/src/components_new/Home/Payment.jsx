@@ -34,7 +34,7 @@ function Payment() {
           
           {/* Description */}
           <p className='text-lg md:text-xl tracking-wider text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed'>
-            Experience the future of payments with VPay. Simply speak your payment intent, 
+            Experience the future of payments with VPay. Simply speak your payment intent 
             and let our AI handle the rest. Fast, secure, and incredibly intuitive.
           </p>
 
@@ -58,11 +58,11 @@ function Payment() {
 
             <div className="bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-8 hover:border-blue-500/50 transition-all duration-300">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-6 mx-auto">
-                <i className='bx bx-shield-check text-2xl text-white'></i>
+                <i className='bxr bx-shield-quarter text-2xl text-white'></i>
               </div>
               <h3 className="text-2xl font-semibold mb-4">Secure Processing</h3>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Every transaction is protected with bank-grade encryption, biometric authentication, 
+                Every transaction is protected with encryption, biometric authentication, 
                 and real-time fraud detection for complete peace of mind.
               </p>
               <div className="flex items-center justify-center gap-2 text-blue-400 text-sm">

@@ -25,7 +25,7 @@ const Header2 = () => {
     return (
         <header className="flex justify-between items-center py-4 px-4 lg:px-20">
             <Link to="/" className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
-                VPay
+                VPAY
             </Link>
 
             {/* Desktop navigation */}
@@ -63,7 +63,7 @@ const Header2 = () => {
                 onClick={handlePrototypeClick}
                 className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50"
             >
-                Prototype
+                PROTOTYPE
             </button>
 
             {/* Mobile menu button - visible only on mobile */}

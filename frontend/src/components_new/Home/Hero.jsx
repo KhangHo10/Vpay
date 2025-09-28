@@ -24,8 +24,7 @@ const Hero = () => {
             
             {/* Description */}
             <p className='text-base sm:text-lg tracking-wider text-gray-400 max-w-[25rem] lg:max-w-[30rem]'>
-                Vpay is like Google Pay or Apple Pay - but smarter. Instead of tapping
-                or swiping, just say what you want to pay, and let VPay handle the rest.
+                VPay isn’t just another payment app — it’s the next step in how we interact with money. Unlike Google Pay or Apple Pay, you don’t need to tap or swipe. With VPay, your voice becomes your wallet.
             </p>
 
             {/* Action Buttons */}
@@ -54,7 +53,7 @@ const Hero = () => {
         {/* 3D Bot */}
         <Spline 
             className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full' 
-            scene="https://prod.spline.design/lbx2sTvagxoPcglg/scene.splinecode" 
+            scene="https://prod.spline.design/lbx2sTvagxoPcglg/scene.splinecode"
         />
 
     </main>

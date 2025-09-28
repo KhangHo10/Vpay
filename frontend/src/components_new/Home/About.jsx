@@ -34,9 +34,10 @@ function About() {
         
         {/* Description */}
         <p className='text-lg md:text-xl tracking-wider text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed'>
-          VPay is like Google Pay or Apple Pay — but smarter. Instead of tapping
-          or swiping, you just use your voice. We're building the future of payments
-          where technology understands you, not the other way around.
+          We’re building a smarter, hands-free payment experience where technology adapts to you — not the other way around. Fast, secure, and effortless, VPay makes transactions feel as natural as speaking.
+        </p>
+        <p className='text-lg md:text-xl tracking-wider text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed'>
+          By removing the need for cards, taps, or swipes, VPay reduces checkout friction, speeds up transactions, and creates a more accessible payment option for everyone — from busy customers on the go to businesses seeking faster, smoother sales.
         </p>
 
         {/* Feature Cards */}
@@ -54,11 +55,12 @@ function About() {
 
           <div className="bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:border-blue-500/50 transition-all duration-300">
             <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
-              <i className='bx bx-shield-check text-xl text-white'></i>
+                <i className='bxr bx-shield text-xl text-white'></i>
             </div>
             <h3 className="text-xl font-semibold mb-3">Secure</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Bank-grade encryption and biometric authentication ensure your transactions are always protected.
+            Encrypted and protected with biometric authentication, your transactions stay secure and private.
+
             </p>
           </div>
 
@@ -78,8 +80,7 @@ function About() {
         <div className="bg-gradient-to-r from-purple-900/20 to-blue-900/20 backdrop-blur-sm border border-gray-700/30 rounded-2xl p-8 max-w-2xl mx-auto">
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-300 leading-relaxed">
-            To make digital payments as natural as having a conversation. We believe technology should adapt to humans, 
-            not force humans to adapt to technology. VPay represents the next evolution in how we interact with money.
+              Pay with your voice. VPay transforms digital payments into a natural, effortless experience, where technology adapts to you, not the other way around.
           </p>
         </div>
 
