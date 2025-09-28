@@ -40,5 +40,7 @@ def transcribe_file(speech_file):
     except Exception as e:
         print(f"Error during transcription: {e}")
 
-# Usage
-transcribe_file("../prototype/Voice1.mp3")
+# If you want to test the function, use this instead:
+if __name__ == "__main__":
+    # This only runs when you execute this file directly with: python voice_transcribe.py
+    transcribe_file("../prototype/Voice1.mp3")
