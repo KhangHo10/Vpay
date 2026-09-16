@@ -1,7 +1,7 @@
 # 🎙️ VPay – Voice-Activated Payment System
 
 A revolutionary **“cardless” payment method** that allows users to make purchases using only their **voice**.  
-Built at **ShellHacks 2024** in just 36 hours!
+Built at **ShellHacks 2025** in just 36 hours!
 
 ---
 
