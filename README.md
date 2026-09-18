@@ -3,7 +3,9 @@
 A revolutionary **“cardless” payment method** that allows users to make purchases using only their **voice**.  
 Built at **ShellHacks 2025** in just 36 hours!
 
----<img width="1545" height="1536" alt="VPay" src="https://github.com/user-attachments/assets/351b193d-ae9a-40a2-aac7-f61fec8afbc5" />
+<img width="1545" height="1536" alt="VPay" src="https://github.com/user-attachments/assets/351b193d-ae9a-40a2-aac7-f61fec8afbc5" />
+
+---
 
 ## 🎯 Overview
 
