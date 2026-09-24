@@ -120,6 +120,6 @@ npm start
 
 ## 🏆 Hackathon
 
-Built in **36+ hours** at **ShellHacks 2024** — Florida’s largest hackathon!  
+Built in **36+ hours** at **ShellHacks 2025** — Florida’s largest hackathon!  
 We learned, built, and collaborated through sleepless nights (and probably too much caffeine).  
 
