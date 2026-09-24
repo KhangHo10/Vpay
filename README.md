@@ -10,7 +10,8 @@ Built at **ShellHacks 2025** in just 36 hours!
 ## 🎯 Overview
 
 **VPay** enables customers to walk into any store and complete transactions by simply **speaking to a payment terminal**.  
-No phone, no card, just your voice.  
+
+No phone, no card, just your **voice**.  
 
 This innovative approach not only helps people who’ve forgotten their wallet or phone but also makes payments more accessible for individuals with **disabilities**.
 
